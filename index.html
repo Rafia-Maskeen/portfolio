@@ -35,6 +35,8 @@
       .image-container:hover .hover-text {
           display: block;
       }
+
+    
   
   </style>
 </head>
@@ -71,7 +73,7 @@
       </nav>
 
       <section class="home pt-5" id="home">
-      <div class="home content-container  d-flex justify-content-evenly align-items-center bg-success bg-opacity-10" style="height: 50vh;">
+      <div class="home1 content-container  d-flex justify-content-evenly align-items-center bg-success bg-opacity-10" style="height: 50vh;">
        <div class="col-7 ps-5 pe-2 text" data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="1500" >
             <h3>Hello It's me</h3>
             <h1 class="fw-bold ">RAFIA MASKEEN</h1>
@@ -85,7 +87,7 @@
     </section>
 
     <section class="about" id="about">
-      <div class="about  bg-success bg-opacity-25 d-flex justify-content-evenly align-items-center"style=" height: 70vh;">
+      <div class="about1  bg-success bg-opacity-25 d-flex justify-content-evenly align-items-center"style=" height: 70vh;">
         <div class="h-lg-75  col-4 ms-5" data-aos="fade-right" data-aos-offset="500">
           <img src="./static/img/IMG-2024.jpg" alt="" class="text h-75 w-50 mt-5 rounded-5 border border-success border-opacity-50 border-4 shadow-lg img-fluid ">
       </div>
@@ -227,11 +229,16 @@
 
         </div>
         <div class="row  mt-3">
-          <div class="col col-9 offset-3">
-            <textarea name="message" id="message" cols="77" rows="5" placeholder="Enter Your Text Here..." class="border border-0 rounded-2"></textarea>
+         
+          <div class="col col-9 offset-3 d-xl-block d-lg-none d-md-none d-sm-none ">
+            <textarea name="message" id="message" cols="84" rows="5" placeholder="Enter Your Text Here..." class="border border-0 rounded-2"></textarea>
           </div>
         </div>
-        <div class="col-4 mt-3 offset-3"> <div class="btn btn-success rounded-pill fw-bold ">Send message</div></div>
+      </div>
+      <div class="col col-9 offset-3 d-xl-none d-lg-block  d-md-none d-sm-none ">
+        <textarea name="message" id="message" cols="67" rows="5" placeholder="Enter Your Text Here..." class="border border-0 rounded-2"></textarea>
+      </div>
+        <div class="col-4 mt-3 offset-lg-5"> <div class="btn btn-success rounded-pill fw-bold ">Send message</div></div>
        
 
       </div>
